@@ -178,7 +178,7 @@ RFC即“==Request for Comments==”，请求意见稿
 
 
 
-## 互联网的边缘部分
+## 1.3.1互联网的边缘部分
 
 ![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1gde7afbrctj30z20m2480.jpg)
 
@@ -207,3 +207,51 @@ RFC即“==Request for Comments==”，请求意见稿
 ![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1gdea08j8l2j30q50gjjua.jpg)
 
 经典例子：ProjectChatroom
+
+
+
+#### P2P方式
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1gdm4sq02cgj30pw0ejac5.jpg)
+
+
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1gdm4stlhirj30ph0he76n.jpg)
+
+***<u>每个主机也可能是中继点！！！</u>***
+
+
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1gdm4sxegdmj30qo0hj40k.jpg)
+
+原则：
+
+***<u>能不通过网络核心就不通过网络核心！以减少网络核心的负载！</u>***
+
+
+
+
+
+## 1.3.2互联网的核心部分
+
+1. 网络核心部分是互联网中***<u>最复杂</u>***的部分
+2. 网络中的核心部分要向网络边缘中的大量主机***<u>提供连通性</u>***，==使边缘部分中的任何一个主机都能够向其他主机通信(即传送或接收各种形式的数据)==
+3. 在网络核心部分中起特殊作用的是==路由器(router)==
+4. 路由器是实现***<u>分组交换(packet switching)</u>***的关键构件，其任务是***<u>转发收到的分组</u>***，这是网络核心部分***<u>最重要</u>***的功能。
+
+
+
+为了理解分组交换，首先要了解电路交换的基本概念
+
+
+
+### 电路交换
+
+
+
+### 分组交换
+
+
+
+### 三种交换的比较
+
