@@ -239,7 +239,7 @@ RFC即“==Request for Comments==”，请求意见稿
 3. 在网络核心部分中起特殊作用的是==路由器(router)==
 4. 路由器是实现***<u>分组交换(packet switching)</u>***的关键构件，其任务是***<u>转发收到的分组</u>***，这是网络核心部分***<u>最重要</u>***的功能。
 
-
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1gdu6t4tsr4j30on0hn41h.jpg)
 
 为了理解分组交换，首先要了解电路交换的基本概念
 
@@ -247,11 +247,96 @@ RFC即“==Request for Comments==”，请求意见稿
 
 ### 电路交换
 
+。。。
 
+
+
+缺点
+
++ 计算机数据具有突发性
++ 这导致在传送计算机数据时，通信线路的利用率很低(用来传送数据的时间往往不到10%甚至1%)
 
 ### 分组交换
+
+#### 特点
+
+1. 分组交换采用==存储转发==技术
+2. 在发送端，先把较长的报文划分成较短的、固定长度的数据段
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1gdu6lf3dshj30iw078wem.jpg)
+
+3. 在每一个数据段前面添加上首部构成分组(packet)
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1gdu6lkm51wj30lh0dgq3b.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1gdu6qmc7faj30r80h776s.jpg)
+
+4. 分组交换网以”packet“作为数据传输单元
+5. 依次把各分组发送到接收端(假定接收端在左边)
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1gdu6lpazjxj30jx0a7q3b.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1gdu6lt0450j30q00fuwfm.jpg)
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1gdu6lxh7ouj30qu0e1dhh.jpg)
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1gdu6xcfrnwj30pt0g8jtu.jpg)
+
+
+
+
+
+
+
+
+
+![img](https://wx2.sinaimg.cn/mw690/005LasY6gy1gdu6wxkeu6j30ph0es408.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1gdu6x1e14ij30ph0a775k.jpg)
+
+
 
 
 
 ### 三种交换的比较
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1gdu6xqg61vj30qq0jetbl.jpg)
+
+![img](https://wx4.sinaimg.cn/mw690/005LasY6gy1gdu6xu0335j30q50g5jtz.jpg)
+
+
+
+
+
+# 1.5计算机网络的类别
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1gdu70hyzksj30ri0gyacz.jpg)
+
+![img](https://wx1.sinaimg.cn/mw690/005LasY6gy1gdu70n5wptj30q00fkmzg.jpg)
+
+
+
+
+
+# 1.6计算机网络的性能
+
+## 1.6.1计算机网络的性能指标
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1gdu72us0d6j30oe0f2dgj.jpg)
+
+
+
+
+
+
+
+## 1.6.2计算机网络的非性能指标
+
+![img](https://wx3.sinaimg.cn/mw690/005LasY6gy1gdu74lwqk1j30p30fydh6.jpg)
+
+
+
+
+
+# 1.7计算机网络的体系结构
 
